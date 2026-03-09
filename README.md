@@ -200,3 +200,11 @@ Attack simulations generate logs that the monitoring system detects and analyzes
 Vansh Devgun
 
 Cybersecurity student building hands-on SOC automation and AI security tools.
+---
+
+## Current Implementation
+
+The repository currently contains a working **AI-powered SOC alert analyzer** using a local LLM and n8n automation.
+
+**Architecture:**
+Manual Trigger → Alert Data → n8n → Ollama → SOC Analysis

@@ -1,0 +1,5 @@
+{
+  "model": "gemma:2b",
+  "prompt": "You are a SOC analyst. Analyze the following alert: {{$json.alert_description}} from IP {{$json.source_ip}} on host {{$json.host}}. Provide attack type, MITRE ATT&CK technique, severity, and recommended response.",
+  "stream": false
+}
