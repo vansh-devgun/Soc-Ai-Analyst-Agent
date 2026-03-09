@@ -208,3 +208,9 @@ The repository currently contains a working **AI-powered SOC alert analyzer** us
 
 **Architecture:**
 Manual Trigger → Alert Data → n8n → Ollama → SOC Analysis
+
+---
+
+## SOC Playbooks
+
+The AI agent uses structured SOC playbooks to guide its analysis and response recommendations. These playbooks are concise and practical for SOC analysts.
