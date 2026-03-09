@@ -215,6 +215,12 @@ Alerts are automatically classified into logical categories (e.g., brute force, 
 
 The AI agent uses structured SOC playbooks to guide its analysis and response recommendations. These playbooks are concise and practical for SOC analysts.
 
+---
+
+## AI Playbook Engine
+
+The AI loads the correct SOC playbook dynamically based on the classified alert type. This ensures the incident response recommendations are standardized and aligned with established SOC procedures.
+
 ## Author
 
 Vansh Devgun

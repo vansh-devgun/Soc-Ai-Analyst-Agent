@@ -30,3 +30,9 @@ npx n8n
 
 Ensure Ollama API is reachable at: 
 `http://127.0.0.1:11434`
+
+---
+
+## Playbook-Driven AI Analysis
+
+The AI uses structured SOC playbooks to guide investigations and generate structured incident response reports. By loading the playbook into the prompt during analysis, the local LLM can provide tailored and accurate recommendations.
